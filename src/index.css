@@ -14,7 +14,6 @@ body {
 .navbar {
   width: 20%;
   height: 100vh;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,13 +30,29 @@ body {
 
 .content {
   width: 80%;
-  height: 100vh;
-  border: 1px solid black;
+  height: 95vh;
   padding: 20px;
+  background: whitesmoke;
 }
 
 .heading {
   padding: 10px;
   font-size: 25px;
   cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.icon {
+  padding: 10px;
+}
+
+.profile {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
