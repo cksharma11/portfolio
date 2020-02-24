@@ -11,7 +11,7 @@ const urls = {
   facebook_url: "https://www.facebook.com/Cksharma11",
   instagram_url: "https://www.instagram.com/_.struggler/",
   github_url: "https://github.com/cksharma11",
-  linkedin_url:"https://www.linkedin.com/in/chandan-kumar-114485119/"
+  linkedin_url: "https://www.linkedin.com/in/chandan-kumar-114485119/"
 };
 
 export default urls;
