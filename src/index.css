@@ -4,7 +4,7 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
 .container {
@@ -52,7 +52,7 @@ body {
 }
 
 .social-icon:hover {
-  transform: scale(1.2)
+  transform: scale(1.2);
 }
 
 .profile {
@@ -77,7 +77,7 @@ body {
 .education {
   padding: 10px;
   margin: 10px;
-  box-shadow: 2px 5px 19px -8px rgba(0,0,0,0.75);
+  box-shadow: 2px 5px 19px -8px rgba(0, 0, 0, 0.75);
 }
 
 .education-title {
@@ -86,7 +86,7 @@ body {
 
 .skill {
   font-weight: bold;
-  box-shadow: 2px 5px 10px -8px rgba(0,0,0,0.75);
+  box-shadow: 2px 5px 10px -8px rgba(0, 0, 0, 0.75);
   padding: 10px;
 }
 
@@ -98,7 +98,7 @@ body {
 
 .project-container {
   font-weight: bold;
-  box-shadow: 2px 5px 10px -8px rgba(0,0,0,0.75);
+  box-shadow: 2px 5px 10px -8px rgba(0, 0, 0, 0.75);
   padding: 10px;
   margin: 10px;
 }
@@ -109,6 +109,14 @@ body {
   color: inherit;
 }
 
+.project-container:hover {
+  border-bottom: 1px solid black;
+}
+
 a {
   text-decoration: none;
+}
+
+.about {
+  padding: 20px;
 }
