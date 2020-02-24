@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div className="container">
       <div className="navbar">
-        <Navbar headings={headings} onClick={setContentIndex} />
+        <Navbar headings={headings} onClick={setContentIndex} selectedNav={contentIndex}/>
       </div>
       <div className="content">
         <Content content={headings[contentIndex].content} />
