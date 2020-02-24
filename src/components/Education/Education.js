@@ -3,8 +3,8 @@ import EducationPlate from "./EducationPlate/EducationPlate";
 
 const Education = ({ educations }) => {
   return (
-    <div className="content-container">
-      <h1 className="education-title">My Education</h1>
+    <div className="content-container ">
+      <h1 className="education-title font-blue">My Education</h1>
       {educations.map(e => {
         return <EducationPlate e={e} />;
       })}

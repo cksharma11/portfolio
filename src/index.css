@@ -17,12 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(238, 103, 143);
-  background: linear-gradient(
-    180deg,
-    rgba(238, 103, 143, 1) 50%,
-    rgba(132, 124, 252, 1) 80%
-  );
+  background: #173055;
   color: white;
   font-weight: bold;
   font-family: inherit;
@@ -110,7 +105,7 @@ body {
 }
 
 .project-container:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #173055;
 }
 
 a {
@@ -119,4 +114,12 @@ a {
 
 .about {
   padding: 20px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.font-blue {
+  color: #173055
 }

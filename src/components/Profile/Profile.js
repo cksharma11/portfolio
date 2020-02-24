@@ -6,9 +6,9 @@ import ReactTypingEffect from "react-typing-effect";
 const Profile = () => {
   return (
     <div className="content-container profile">
-      <Icon src={urls.profile_pic} size="150" />
+      <Icon src={urls.profile_pic} size="150" circle={true} />
       <ReactTypingEffect
-        className="typingeffect name"
+        className="typingeffect name font-blue"
         text={["I am Chandan Kumar", "I am a Application Developer"]}
         speed={100}
         eraseDelay={700}
