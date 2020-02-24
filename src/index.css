@@ -92,4 +92,23 @@ body {
 
 .content-container {
   margin-left: 20px;
+  height: 100%;
+  overflow: scroll;
+}
+
+.project-container {
+  font-weight: bold;
+  box-shadow: 2px 5px 10px -8px rgba(0,0,0,0.75);
+  padding: 10px;
+  margin: 10px;
+}
+
+.project {
+  font-size: 25px;
+  font-weight: bold;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
 }
