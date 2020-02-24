@@ -1,12 +1,13 @@
 import React from "react";
 import Icon from "../Icon/Icon";
 import urls from "../../resources/urls";
+import ReactTypingEffect from 'react-typing-effect';
 
 const Profile = () => {
   return (
     <div className="content-container profile">
       <Icon src={urls.profile_pic} size="150" />
-      <h2>I'm Jhon</h2>
+      <ReactTypingEffect className="typingeffect name" text={['I am Shubham Chauhan','I am a Application Developer']} speed={100} eraseDelay={700}/>
 
       <div className="social-icons">
         <Icon src={urls.facebook_logo} size="40" href={urls.facebook_url} />
