@@ -83,3 +83,13 @@ body {
 .education-title {
   margin-left: 15px;
 }
+
+.skill {
+  font-weight: bold;
+  box-shadow: 2px 5px 10px -8px rgba(0,0,0,0.75);
+  padding: 10px;
+}
+
+.content-container {
+  margin-left: 20px;
+}

@@ -1,10 +1,12 @@
 import React from "react";
 
-const Skills = () => {
+const Skills = ({ skills }) => {
   return (
     <div className="content-container">
       <h1>Skills</h1>
-      <div>Content</div>
+      {skills.map(s => {
+        return <h2 className="skill">{s}</h2>;
+      })}
     </div>
   );
 };

@@ -6,11 +6,12 @@ import Profile from "../Profile/Profile";
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
 import educations from "../../resources/educations/educations";
+import skills from "../../resources/skills/skills";
 
 const headings = [
   { title: "Profile", content: () => <Profile /> },
   { title: "Education", content: () => <Education educations={educations} /> },
-  { title: "Skills", content: () => <Skills /> },
+  { title: "Skills", content: () => <Skills skills={skills} /> },
   { title: "Projects", content: () => <Projects /> }
 ];
 
