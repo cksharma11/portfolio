@@ -5,9 +5,11 @@ const Navbar = ({ headings, onClick, selectedNav }) => {
     <div className="headings">
       {headings.map((h, i) => (
         <div
-        key={h}
-        onClick={onClick.bind(null, i)}
-        className={`${i === selectedNav ? "selected-nav heading" : "heading"}`}
+          key={h}
+          onClick={onClick.bind(null, i)}
+          className={`${
+            i === selectedNav ? "selected-nav heading" : "heading animated"
+          }`}
         >
           {h.title}
         </div>
