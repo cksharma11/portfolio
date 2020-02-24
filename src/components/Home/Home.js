@@ -12,11 +12,16 @@ import About from "../About/About";
 import about from "../../resources/about/about";
 
 const headings = [
-  { title: "Profile", content: () => <Profile /> },
+  {
+    title: "Profile",
+    content: () => (
+      <Profile name="Chandan Kumar" profession="Application Developer" />
+    )
+  },
   { title: "About", content: () => <About about={about} /> },
   { title: "Education", content: () => <Education educations={educations} /> },
   { title: "Skills", content: () => <Skills skills={skills} /> },
-  { title: "Projects", content: () => <Projects projects={projects}/> }
+  { title: "Projects", content: () => <Projects projects={projects} /> }
 ];
 
 const Home = () => {
