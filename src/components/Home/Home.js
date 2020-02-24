@@ -5,10 +5,11 @@ import Education from "../Education/Education";
 import Profile from "../Profile/Profile";
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
+import educations from "../../resources/educations/educations";
 
 const headings = [
   { title: "Profile", content: () => <Profile /> },
-  { title: "Education", content: () => <Education /> },
+  { title: "Education", content: () => <Education educations={educations} /> },
   { title: "Skills", content: () => <Skills /> },
   { title: "Projects", content: () => <Projects /> }
 ];

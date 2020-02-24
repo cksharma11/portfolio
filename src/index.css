@@ -26,6 +26,7 @@ body {
   color: white;
   font-weight: bold;
   font-family: inherit;
+  letter-spacing: 1.3px;
 }
 
 .content {
@@ -70,4 +71,15 @@ body {
 
 .selected-nav {
   border-bottom: 1px solid;
+  font-weight: bold;
+}
+
+.education {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 5px 19px -8px rgba(0,0,0,0.75);
+}
+
+.education-title {
+  margin-left: 15px;
 }

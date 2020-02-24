@@ -1,10 +1,13 @@
 import React from "react";
+import EducationPlate from "./EducationPlate/EducationPlate";
 
-const Education = () => {
+const Education = ({ educations }) => {
   return (
     <div className="content-container">
-      <h1>Education</h1>
-      <div>Content</div>
+      <h1 className="education-title">My Education</h1>
+      {educations.map(e => {
+        return <EducationPlate e={e} />;
+      })}
     </div>
   );
 };
