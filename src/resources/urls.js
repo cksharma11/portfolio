@@ -8,6 +8,7 @@ const urls = {
     "https://github.githubassets.com/images/modules/logos_page/Octocat.png",
   linkedin_logo:
     "https://icons-for-free.com/iconfiles/png/512/linked+linkedin+logo+social+icon-1320191784782940875.png",
+  medium_logo:"https://cdn.onlinewebfonts.com/svg/img_256332.png",
   facebook_url: "https://www.facebook.com/Cksharma11",
   instagram_url: "https://www.instagram.com/_.struggler/",
   github_url: "https://github.com/cksharma11",

@@ -19,6 +19,7 @@ const Profile = () => {
         <Icon src={urls.instagram_logo} size="40" href={urls.instagram_url} />
         <Icon src={urls.github_logo} size="40" href={urls.github_url} />
         <Icon src={urls.linkedin_logo} size="40" href={urls.linkedin_url} />
+        <Icon src={urls.medium_logo} size="40" href={urls.linkedin_url} />
       </div>
     </div>
   );
