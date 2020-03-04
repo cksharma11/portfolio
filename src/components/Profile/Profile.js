@@ -9,7 +9,7 @@ const Profile = ({name, profession}) => {
       <Icon src={urls.profile_pic} size="150" circle={true} />
       <ReactTypingEffect
         className="typingeffect name font-blue"
-        text={[`I am ${name}`, `I am a ${profession}`]}
+        text={[`I am ${name}`, `I am an ${profession}`]}
         speed={100}
         eraseDelay={700}
       />
