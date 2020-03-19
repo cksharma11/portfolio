@@ -7,7 +7,10 @@ import config from "../../config/config";
 const Profile = ({ name, profession }) => {
   return (
     <div className="content-container profile">
-      <ProfilePic circle={config.CIRCLE_PROFILE_PIC} />
+      <ProfilePic
+        circle={config.CIRCLE_PROFILE_PIC}
+        size={config.PROFILE_PIC_SIZE}
+      />
       <Tagline
         name={name}
         profession={profession}

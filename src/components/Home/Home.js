@@ -10,18 +10,20 @@ import skills from "../../resources/skills/skills";
 import projects from "../../resources/projects/projects";
 import About from "../About/About";
 import about from "../../resources/about/about";
+import labels from "../../labels/labels";
 
 const headings = [
   {
-    title: "Profile",
-    content: () => (
-      <Profile name="Chandan Kumar" profession="Application Developer" />
-    )
+    title: labels.profile,
+    content: () => <Profile name={about.name} profession={about.profession} />
   },
-  { title: "About", content: () => <About about={about} /> },
-  { title: "Education", content: () => <Education educations={educations} /> },
-  { title: "Skills", content: () => <Skills skills={skills} /> },
-  { title: "Projects", content: () => <Projects projects={projects} /> }
+  { title: labels.about, content: () => <About about={about} /> },
+  {
+    title: labels.education,
+    content: () => <Education educations={educations} />
+  },
+  { title: labels.skills, content: () => <Skills skills={skills} /> },
+  { title: labels.projects, content: () => <Projects projects={projects} /> }
 ];
 
 const Home = () => {
