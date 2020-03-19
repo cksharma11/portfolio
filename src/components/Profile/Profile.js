@@ -6,7 +6,7 @@ import Tagline from "../Tagline/Tagline";
 const Profile = ({ name, profession }) => {
   return (
     <div className="content-container profile">
-      <ProfilePic />
+      <ProfilePic circle={true} />
       <Tagline
         name={name}
         profession={profession}
