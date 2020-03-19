@@ -1,26 +1,19 @@
 import React from "react";
-import Icon from "../Icon/Icon";
-import urls from "../../resources/urls";
-import ReactTypingEffect from "react-typing-effect";
+import SocialLinks from "../SocialLinks/SocialLinks";
+import ProfilePic from "../ProfilePic/ProfilePic";
+import Tagline from "../Tagline/Tagline";
 
-const Profile = ({name, profession}) => {
+const Profile = ({ name, profession }) => {
   return (
     <div className="content-container profile">
-      <Icon src={urls.profile_pic} size="150" circle={true} />
-      <ReactTypingEffect
-        className="typingeffect name font-blue"
-        text={[`I am ${name}`, `I am an ${profession}`]}
+      <ProfilePic />
+      <Tagline
+        name={name}
+        profession={profession}
         speed={100}
         eraseDelay={700}
       />
-
-      <div className="social-icons">
-        <Icon src={urls.facebook_logo} size="40" href={urls.facebook_url} />
-        <Icon src={urls.instagram_logo} size="40" href={urls.instagram_url} />
-        <Icon src={urls.github_logo} size="40" href={urls.github_url} />
-        <Icon src={urls.linkedin_logo} size="40" href={urls.linkedin_url} />
-        <Icon src={urls.medium_logo} size="40" href={urls.linkedin_url} />
-      </div>
+      <SocialLinks />
     </div>
   );
 };
