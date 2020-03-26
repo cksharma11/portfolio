@@ -6,7 +6,9 @@ const Projects = ({ projects }) => {
   return (
     <div className="content-container">
       <h1 className="education-title font-blue">{labels.projects}</h1>
-      {projects.map(Project)}
+      {projects.map(p => (
+        <Project project={p} />
+      ))}
     </div>
   );
 };
