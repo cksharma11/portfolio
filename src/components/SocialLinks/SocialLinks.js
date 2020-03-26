@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "../Icon/Icon";
-import urls from "../../resources/urls";
+import urls from "../../resources/profileLinks";
 
 const SocialLinks = ({ size }) => {
   return (
