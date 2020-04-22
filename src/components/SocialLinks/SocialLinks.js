@@ -1,16 +1,16 @@
 import React from 'react';
-import Icon from '../Icon/Icon';
 import urls from '../../resources/profileLinks';
+import { SocialIcon } from 'react-social-icons';
 
 const SocialLinks = ({ size }) => {
   return (
     <div className='social-icons'>
-      <Icon src={urls.github_logo} size={size} href={urls.github_url} />
-      <Icon src={urls.linkedin_logo} size={size} href={urls.linkedin_url} />
-      <Icon src={urls.medium_logo} size={size} href={urls.linkedin_url} />
-      <Icon src={urls.twitter_logo} size={size} href={urls.twitter_url} />
-      <Icon src={urls.instagram_logo} size={size} href={urls.instagram_url} />
-      <Icon src={urls.facebook_logo} size={size} href={urls.facebook_url} />
+      <SocialIcon url={urls.github_url} />
+      <SocialIcon url={urls.medium_url} />
+      <SocialIcon url={urls.linkedin_url} />
+      <SocialIcon url={urls.twitter_url} />
+      <SocialIcon url={urls.instagram_url} />
+      <SocialIcon url={urls.facebook_url} />
     </div>
   );
 };

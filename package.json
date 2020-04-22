@@ -35,7 +35,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "react-social-icons": "^4.1.0"
   },
   "homepage": "http://cksharma11.github.io/portfolio"
 }
