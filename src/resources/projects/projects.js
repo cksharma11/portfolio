@@ -1,5 +1,10 @@
 const projects = [
   {
+    title: "Ludo",
+    url: "https://ludo-pc.herokuapp.com/",
+    description: "Ludo board game created using NextJs, React, SQL etc."
+  },
+  {
     title: "2048",
     url: "https://cksharma11.github.io/2048-clojurescript/",
     description: "2048 Game made using ClojureScript"
