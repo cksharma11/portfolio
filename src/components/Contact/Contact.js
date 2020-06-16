@@ -1,7 +1,7 @@
 import React from 'react';
 import HeaderTitle from '../HeaderTitle/HeaderTitle';
 import EmailSvg from '../../Icons/EmailIcon/EmailIcon';
-import LocationIcon from '../../Icons/LocationIcon/Icons/LocationIcon';
+import LocationIcon from '../../Icons/LocationIcon/LocationIcon';
 import GithubIcon from '../../Icons/GithubIcon/GithubIcon';
 import LinkedInIcon from '../../Icons/LinkedInIcon/LinkedInIcon';
 import TwitterIcon from '../../Icons/TwitterIcon/TwitterIcon';
@@ -11,7 +11,7 @@ const Contact = ({ profileLinks }) => {
   const IconWrapper = ({ Icon, text }) => {
     return (
       <div className='contact-line'>
-        <Icon size='medium' />
+        <Icon size='medium' text={text}/>
         <p className='education-title'>{text}</p>
       </div>
     );

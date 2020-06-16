@@ -1,8 +1,8 @@
 import React from 'react';
 
-const InstagramIcon = ({ size }) => {
+const InstagramIcon = ({ size, text }) => {
   return (
-    <div className='icon'>
+    <a className='icon' href={text}>
       <svg
         className={size}
         aria-hidden='true'
@@ -36,7 +36,7 @@ const InstagramIcon = ({ size }) => {
           r='34.149'
         />
       </svg>
-    </div>
+    </a>
   );
 };
 

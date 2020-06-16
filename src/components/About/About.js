@@ -8,7 +8,7 @@ import HeaderTitle from '../HeaderTitle/HeaderTitle';
 
 const About = ({ about }) => {
   return (
-    <div className='about'>
+    <div className='content-container'>
       <HeaderTitle title={labels.aboutMe} />
       <p className='profession'>{about.description}</p>
       <div className='about-wrapper'>

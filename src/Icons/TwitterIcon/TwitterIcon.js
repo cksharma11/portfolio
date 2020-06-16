@@ -1,8 +1,8 @@
 import React from 'react';
 
-const TwitterIcon = ({ size }) => {
+const TwitterIcon = ({ size, text }) => {
   return (
-    <div className='icon'>
+    <a className='icon' href={text}>
       <svg
         className={size}
         aria-hidden='true'
@@ -20,7 +20,7 @@ const TwitterIcon = ({ size }) => {
           fill='currentColor'
         />
       </svg>
-    </div>
+    </a>
   );
 };
 
