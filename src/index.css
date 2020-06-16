@@ -98,8 +98,10 @@ body {
   border-radius: 2px;
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   transition: all 0.3s ease-in-out;
+  color: #a2a0a5;
 }
 
 .project {
@@ -272,9 +274,9 @@ a {
 .brand {
   padding: 0 10px;
   font-size: 3rem;
-  border: 3px double #fff;
+  border: 3px double #c8ff00;
   padding: 20px 8px;
-  color: #fff;
+  color: #a2a0a5;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   text-align: center;
@@ -399,4 +401,17 @@ a {
 .icon-path:hover {
   cursor: pointer;
   fill: #c8ff00;
+}
+
+.project-name {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 10px 0;
+}
+
+.project-desc {
+  margin: 0;
+  color: #a2a0a5;
+  font-size: 1rem;
 }

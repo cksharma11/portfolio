@@ -11,6 +11,8 @@ const Project = ({ project }) => {
         height='400px'
         width='500px'
       />
+      <p className="project-name">{project.title}</p>
+      <p className="project-desc">{project.description}</p>
       <div class='projects-content-showcase-btns'>
         <a
           href={project.url}
