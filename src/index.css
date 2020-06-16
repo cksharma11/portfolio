@@ -97,9 +97,6 @@ body {
   padding: 10px;
   border-radius: 2px;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   transition: all 0.3s ease-in-out;
   color: #a2a0a5;
 }
@@ -296,11 +293,12 @@ a {
 .showcase {
   padding: 20px;
   display: grid;
+  grid-gap: 2em;
   grid-template-columns: auto auto;
 }
 
 .projects-content-showcase-btns {
-  width: 100%;
+  width: 92%;
   height: 100%;
   top: 0;
   bottom: 0;

@@ -13,7 +13,7 @@ import profileLinks from '../../resources/profileLinks';
 const getHeadings = (props) => {
   return [
     {
-      title: labels.profile,
+      title: labels.home,
       content: () => <Profile name={about.name} {...props} />,
     },
     { title: labels.about, content: () => <About about={about} /> },

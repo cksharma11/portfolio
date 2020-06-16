@@ -11,6 +11,7 @@ const labels = {
   contact: 'Contact',
   preview: 'preview',
   github: 'github',
+  home: "Home"
 };
 
 export default labels;
