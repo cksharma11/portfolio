@@ -1,14 +1,16 @@
 const labels = {
-  profile: "Profile",
-  about: "About",
-  education: "Education",
-  skills: "Skills",
-  projects: "Projects",
-  aboutMe: "About Me",
-  heyThere: "Hey There,",
+  profile: 'Profile',
+  about: 'About',
+  education: 'Education',
+  skills: 'Skills',
+  projects: 'Projects',
+  aboutMe: 'About Me',
+  heyThere: 'Hey There,',
   iam: "I'm",
-  myEducation: "Education",
-  contact: "Contact"
+  myEducation: 'Education',
+  contact: 'Contact',
+  preview: 'preview',
+  github: 'github',
 };
 
 export default labels;

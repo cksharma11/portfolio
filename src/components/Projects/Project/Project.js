@@ -1,4 +1,5 @@
 import React from 'react';
+import labels from '../../../labels/labels';
 
 const Project = ({ project }) => {
   return (
@@ -17,7 +18,7 @@ const Project = ({ project }) => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          preview
+          {labels.preview}
         </a>
         <a
           href={project.github}
@@ -25,7 +26,7 @@ const Project = ({ project }) => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          github
+          {labels.github}
         </a>
       </div>
     </div>
