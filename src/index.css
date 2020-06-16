@@ -91,9 +91,7 @@ body {
 }
 
 .content-container {
-  margin-left: 20px;
-  height: 100%;
-  overflow: scroll;
+  padding: 20px;
 }
 
 .project-container {
@@ -284,6 +282,11 @@ a {
   margin-bottom: 150px;
 }
 
+.brand:hover {
+  color: #c8ff00;
+  border-color: #c8ff00;
+}
+
 .nav-container {
   display: flex;
   flex-direction: column;
@@ -331,4 +334,37 @@ a {
   background: white;
   color: #23252c;
   cursor: pointer;
+}
+
+.icon {
+  color: #c8ff00;
+}
+
+.medium {
+  height: 20px;
+  width: 20px;
+}
+
+.contact-line {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
+  border-bottom: 2px solid #c8ff00;
+}
+
+.contact-wrapper {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 5em;
+  background-color: #23252c;
+  border: 2px solid #a2a0a5;
+  width: 60%;
+  margin-left: 2em;
 }
