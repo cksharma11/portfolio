@@ -7,7 +7,7 @@ const labels = {
   aboutMe: "About Me",
   heyThere: "Hey There,",
   iam: "I'm",
-  myEducation: "My Education"
+  myEducation: "Education"
 };
 
 export default labels;

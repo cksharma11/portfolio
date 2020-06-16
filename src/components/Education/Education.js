@@ -4,11 +4,13 @@ import labels from "../../labels/labels";
 
 const Education = ({ educations }) => {
   return (
-    <div className="content-container ">
-      <h1 className="education-title font-blue">{labels.myEducation}</h1>
-      {educations.map(e => {
-        return <EducationPlate e={e} />;
-      })}
+    <div className='education-container '>
+      <h1 className='education-label'>{labels.myEducation}</h1>
+      <div className="box-wrapper">
+        {educations.map((e) => {
+          return <EducationPlate e={e} />;
+        })}
+      </div>
     </div>
   );
 };

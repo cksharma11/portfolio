@@ -1,23 +1,17 @@
-import React from "react";
-import SocialLinks from "../SocialLinks/SocialLinks";
-import ProfilePic from "../ProfilePic/ProfilePic";
-import Tagline from "../Tagline/Tagline";
-import config from "../../config/config";
+import React from 'react';
 
 const Profile = ({ name, profession }) => {
   return (
-    <div className="content-container profile">
-      <ProfilePic
-        circle={config.CIRCLE_PROFILE_PIC}
-        size={config.PROFILE_PIC_SIZE}
-      />
-      <Tagline
-        name={name}
-        profession={profession}
-        speed={config.TAGLINE_SPEED}
-        eraseDelay={config.TAGLINE_ERASEDELAY}
-      />
-      <SocialLinks size={config.SOCIAL_ICON_SIZE} />
+    <div className='content-container profile'>
+      <h2 className='profile-headline'>{`Hi, I'm ${name}`}</h2>
+      <h1 className='profile-job'>I'm an Application Developer</h1>
+      <p className='profile-desc'>
+        Who build things for the web. Specialize in web contents.
+      </p>
+      <div className='profile-buttons-container'>
+        <button className='profile-buttons'>Projects</button>
+        <button className='profile-buttons'>Contact</button>
+      </div>
     </div>
   );
 };
